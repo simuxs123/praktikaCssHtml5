@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+.container {
+    padding-top: 20vh;
+}
+.main {
+    height: 250px;
+    width: 80%;
+    display: flex;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+.box {
+    flex: 1;
+}
