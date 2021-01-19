@@ -7,20 +7,43 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 img {
     height: 100%;
     width: 100%;
 }
+
 .container {
     padding-top: 20vh;
 }
+
 .main {
     height: 250px;
     width: 80%;
-    display: flex;
     border: 2px solid black;
     margin: 0 auto;
+    position: relative;
 }
+
 .box {
-    flex: 1;
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    width: 33.33%;
+}
+
+#box1 {
+    left: 0;
+}
+
+#box2 {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#box3 {
+    right: 0;
 }
